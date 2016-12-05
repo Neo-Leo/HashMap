@@ -3,7 +3,7 @@
  * https://leetcode.com/problems/group-shifted-strings/
  */ 
 
-public class Solution {
+public class GroupShiftedStrings {
     public List<List<String>> groupStrings(String[] strings) {
         //Arrays.sort(strings); // This is o(m^2 * n^2 * logm * logn) where m is the avg length of a string and n are such total strings
         List<List<String>> resList = new LinkedList<List<String>>(); 
